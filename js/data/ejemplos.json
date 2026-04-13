@@ -1,0 +1,48 @@
+{
+  "casos": [
+    {
+      "id": "becas",
+      "nombre": "Admisión y Becas Universitarias",
+      "descripcion": "Evaluación de candidatos para beca de excelencia socioeconómica.",
+      "contexto": "Convocatoria anual de la Fundación Talentum para grado en Ingeniería.",
+      "decision": "Determinar si se otorga beca del 100%, 50% o denegación.",
+      "datos": "Estudiante: Mateo Ruiz. Promedio: 9.6/10. Ingresos familiares: < 2 salarios mínimos. Actividades: Voluntariado en robótica.",
+      "restricciones": "Cupo limitado a 5 becas totales. El candidato debe mantener promedio > 8.5.",
+      "metricas": "Presupuesto anual: $150,000. Solicitantes: 450.",
+      "riesgo_principal": "Sesgo de selección por procedencia geográfica o exclusión de talentos sin actividades extracurriculares."
+    },
+    {
+      "id": "soporte",
+      "nombre": "Tickets de Soporte TI",
+      "descripcion": "Clasificación y prioridad de incidencias técnicas críticas.",
+      "contexto": "Cierre de trimestre contable en una multinacional de logística.",
+      "decision": "Asignar nivel de urgencia (P1 a P4) y equipo de respuesta.",
+      "datos": "Error: 'Timeout en base de datos de facturación'. Reportado por: Director Financiero. Usuarios afectados: 200.",
+      "restricciones": "SLA de P1 requiere resolución en < 2 horas. Personal de guardia reducido.",
+      "metricas": "Volumen: 80 tickets/hora durante el cierre.",
+      "riesgo_principal": "Escalación innecesaria de incidentes menores que saturen al equipo de ingeniería (falsos positivos de urgencia)."
+    },
+    {
+      "id": "ecommerce",
+      "nombre": "Devoluciones y Fraude",
+      "descripcion": "Validación de reembolsos sospechosos en electrónica de consumo.",
+      "contexto": "Campaña Post-Black Friday con alto volumen de retornos.",
+      "decision": "Aprobar reembolso automático, solicitar inspección física o bloquear cuenta.",
+      "datos": "Cliente: 'Usuario_99'. Producto: Smartphone ($1,200). Motivo: 'No enciende'. Historial: 4 devoluciones en 30 días.",
+      "restricciones": "Política de 'Satisfacción garantizada' de 15 días. Costo de logística inversa: $15 por trayecto.",
+      "metricas": "Tasa de fraude estimada: 2.5%. Margen de beneficio por unidad: 12%.",
+      "riesgo_principal": "Afectar la lealtad de clientes legítimos por procesos de verificación demasiado agresivos (fricción)."
+    },
+    {
+      "id": "documentacion",
+      "nombre": "Asistente de Documentación Corporativa",
+      "descripcion": "Interpretación de normativas internas para empleados.",
+      "contexto": "Actualización del Manual de Ética y Conducta sobre regalos de proveedores.",
+      "decision": "Determinar si un empleado puede aceptar una invitación a un evento internacional.",
+      "datos": "Invitación: Congreso en Dubai. Proveedor: Cloud Systems. Costo estimado: $3,500. Rol empleado: Comprador Senior.",
+      "restricciones": "Límite de regalos permitido: $50. Prohibición de viajes pagados por proveedores en fase de licitación.",
+      "metricas": "Consultas mensuales al manual: 1,200. Tiempo promedio de respuesta legal: 3 días.",
+      "riesgo_principal": "Conflicto de intereses no detectado que derive en sanciones legales para la compañía."
+    }
+  ]
+}
