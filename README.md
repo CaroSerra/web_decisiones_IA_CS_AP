@@ -25,18 +25,6 @@ Instrucciones de Uso
 3.  **Generación:** Haz clic en "Generar Prompt Final".
 4.  **Ejecución:** Copia el resultado y pégalo en tu modelo de lenguaje (LLM) preferido para obtener el análisis detallado.
 
-Despliegue en GitHub Pages
-Para publicar esta app en menos de un minuto:
-1.  Sube los archivos a un repositorio público en GitHub.
-2.  Ve a la pestaña Settings (Configuración) de tu repositorio.
-3.  En el menú lateral izquierdo, selecciona Pages.
-4.  En la sección "Build and deployment", selecciona la rama `main` (o `master`) y la carpeta `/ (root)`.
-5.  Haz clic en Save. En unos instantes, tu app estará disponible en la URL proporcionada por GitHub.
-
-Limitaciones
-* Sin Backend: La aplicación no almacena datos; toda la lógica se ejecuta en el navegador del cliente.
-* Procesamiento Externo:** La app genera el prompt, pero requiere de un LLM externo para procesar la respuesta final.
-* Privacidad: Evita introducir datos sensibles o privados (claves, DNIs, etc.) en los campos de texto si utilizas modelos de IA públicos.
 
 Equipo y Autores
 * Desarrolladores: Carolina Serrano, Alejandra Palomino
